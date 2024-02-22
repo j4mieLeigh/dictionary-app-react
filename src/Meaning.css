@@ -1,0 +1,19 @@
+.Meaning h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.Meaning .definition {
+  color: blue;
+}
+
+.Meaning .example {
+  font-size: 13px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.Meaning .synonyms {
+  list-style: none;
+}

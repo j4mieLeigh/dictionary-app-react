@@ -1,10 +1,14 @@
 .App {
-  text-align: center;
+  background-color: aquamarine;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
 }
 
 .App header {
   font-size: 36px;
   margin: 15px 0;
+  text-align: center;
 }
 
 .App footer {

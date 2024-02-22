@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="nugget" />
         </main>
         <footer>
           {" "}
