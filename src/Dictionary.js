@@ -45,7 +45,12 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>Feed me words</h1>
+          <img
+            src="./shark-pic.jpg"
+            alt="shark illustration"
+            rel="no-referrer"
+          />
+          <h1>Feed me a word</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -55,7 +60,7 @@ export default function Dictionary(props) {
             ></input>
             <input
               type="submit"
-              value="Yum"
+              value="Chomp chomp"
             ></input>
           </form>
         </section>
