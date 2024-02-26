@@ -1,17 +1,31 @@
 .App {
-  background-color: aquamarine;
+  background-color: #faefee;
   margin: 0 auto;
   max-width: 960px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .App header {
+  color: #2c3c4d;
+  font-family: "Rammetto One", sans-serif;
   font-size: 36px;
-  margin: 15px 0;
+  margin: 10px 0;
   text-align: center;
 }
 
 .App footer {
+  font-family: "Sora", sans-serif;
+  font-size: 14px;
   margin: 30px 0;
   text-align: center;
+}
+
+.App footer a {
+  color: #ca3931;
+  text-decoration: none;
+}
+
+.App footer a:hover {
+  opacity: 0.7;
+  transition: all 200ms ease-in-out;
 }

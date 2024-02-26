@@ -1,7 +1,9 @@
 .Dictionary h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 15px;
+  color: #2c3c4d;
+  font-family: "Sora", sans-serif;
+  font-size: 28px;
+  margin: 15px 0 20px 0;
+  text-align: center;
 }
 
 .Dictionary section {
@@ -14,9 +16,31 @@
 }
 
 .Dictionary input {
-  border: 1px solid #ddd;
   border-radius: 6px;
   color: #333;
   padding: 8px 6px;
-  width: 100%;
+}
+
+.Dictionary .search-bar {
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  width: 70%;
+}
+
+.Dictionary .submit-button {
+  background-color: #ca3631;
+  border: none;
+  color: white;
+  width: 25%;
+}
+
+.Dictionary .submit-button:hover {
+  opacity: 0.7;
+  transition: all 200ms ease-in-out;
+}
+
+.Dictionary p {
+  font-size: 13px;
+  font-style: italic;
+  margin: 5px 0 0 3px;
 }

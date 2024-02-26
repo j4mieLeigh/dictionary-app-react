@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import Images from "./Images";
 import "./Dictionary.css";
+import myImage from "./shark-pic.jpg";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -46,23 +47,26 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <img
-            src="./shark-pic.jpg"
+            src={myImage}
+            className="img-fluid"
             alt="shark illustration"
             rel="no-referrer"
           />
-          <h1>Feed me a word</h1>
+          <h1>Feed me a word...</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
-              placeholder="Enter a word..."
               onChange={handleKeywordChange}
               defaultValue={props.defaultKeyword}
+              className="search-bar"
             ></input>
             <input
               type="submit"
               value="Chomp chomp"
+              className="submit-button"
             ></input>
           </form>
+          <p>e.g., swimmers, slowpokes, fish, </p>
         </section>
         <Results results={results} />
         <Images images={images} />

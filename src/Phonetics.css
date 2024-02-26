@@ -14,11 +14,12 @@
 }
 
 .Phonetics a:hover {
-  background-color: purple;
+  background-color: #ca3931;
   color: white;
 }
 
 .Phonetics .text {
-  color: purple;
+  color: #ca3931;
+  font-weight: bold;
   opacity: 0.8;
 }

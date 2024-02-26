@@ -4,9 +4,9 @@
 }
 
 .Synonyms li {
-  border: 1.5px solid green;
+  border: 1.5px solid #78b6da;
   border-radius: 4px;
-  color: green;
+  color: #78b6da;
   display: inline-block;
   line-height: 1;
   list-style: none;
