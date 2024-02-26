@@ -15,6 +15,7 @@ export default function App() {
           <a
             href="https://github.com/j4mieLeigh"
             target="_blank"
+            title="GitHub profile"
           >
             Jamie Leigh
           </a>{" "}
@@ -22,6 +23,7 @@ export default function App() {
           <a
             href="https://github.com/j4mieLeigh/dictionary-app-react"
             target="_blank"
+            title="Source code"
           >
             Github
           </a>{" "}
@@ -29,6 +31,7 @@ export default function App() {
           <a
             href="https://steady-kitsune-53dd78.netlify.app/"
             target="_blank"
+            title="Hosted site"
           >
             Netlify
           </a>

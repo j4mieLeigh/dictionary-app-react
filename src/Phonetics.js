@@ -7,6 +7,7 @@ export default function Phonetics(props) {
       <a
         href={props.phonetics.audio}
         target="_blank"
+        title="Play audio"
       >
         ▶
       </a>

@@ -49,7 +49,7 @@ export default function Dictionary(props) {
           <img
             src={myImage}
             className="img-fluid"
-            alt="shark illustration"
+            alt="Shark illustration"
             rel="no-referrer"
           />
           <h1>Feed me a word...</h1>
@@ -66,7 +66,7 @@ export default function Dictionary(props) {
               className="submit-button"
             ></input>
           </form>
-          <p>e.g., swimmers, slowpokes, fish, </p>
+          <p>e.g., swimmers, slowpokes, crustaceans, weaklings</p>
         </section>
         <Results results={results} />
         <Images images={images} />
